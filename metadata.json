@@ -1,0 +1,7 @@
+{
+  "name": "Weather Now",
+  "description": "A modern, responsive weather web application that provides real-time weather conditions, hourly and daily forecasts, and smart outdoor tips for any city worldwide. Features include geolocation, a favorites system, and a dark/light mode toggle.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
