@@ -13,7 +13,7 @@ const AboutPage: React.FC = () => {
             Our goal is to offer a clean, simple, and visually appealing interface to help you plan your activities with confidence.
           </p>
           
-         <h2>h</h2>
+         
 
           <h2 className="text-xl font-semibold pt-4 border-t border-gray-200 dark:border-gray-700">Data Sources</h2>
            <ul className="space-y-2 list-disc list-inside">
