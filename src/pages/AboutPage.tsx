@@ -13,14 +13,7 @@ const AboutPage: React.FC = () => {
             Our goal is to offer a clean, simple, and visually appealing interface to help you plan your activities with confidence.
           </p>
           
-          <h2 className="text-xl font-semibold pt-4 border-t border-gray-200 dark:border-gray-700">Technology Stack</h2>
-          <ul className="space-y-2 list-disc list-inside">
-            <li><strong className="font-medium">React JS:</strong> For building a fast and interactive user interface.</li>
-            <li><strong className="font-medium">Tailwind CSS:</strong> For a utility-first approach to styling and responsive design.</li>
-            <li><strong className="font-medium">Recharts:</strong> For creating beautiful and responsive charts.</li>
-            <li><strong className="font-medium">TypeScript:</strong> For robust, type-safe code.</li>
-            <li><strong className="font-medium">React Router:</strong> For client-side routing.</li>
-          </ul>
+         
 
           <h2 className="text-xl font-semibold pt-4 border-t border-gray-200 dark:border-gray-700">Data Sources</h2>
            <ul className="space-y-2 list-disc list-inside">
