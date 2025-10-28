@@ -23,7 +23,7 @@ export const reverseGeocode = async (latitude: number, longitude: number): Promi
     if (!response.ok) throw new Error('Failed to fetch location name');
     const data = await response.json();
     return {
-      id: Date.now(), // No stable ID from this API, generate one.
+      id: Date.now(),
       name: data.city || data.locality || 'Unknown Location',
       latitude,
       longitude,
@@ -32,7 +32,7 @@ export const reverseGeocode = async (latitude: number, longitude: number): Promi
     };
   } catch (error) {
     console.error("Error during reverse geocoding:", error);
-    // Fallback city object
+  
     return {
       id: Date.now(),
       name: 'Current Location',
